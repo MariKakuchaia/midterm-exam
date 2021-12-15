@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container-page{
+    max-width: 1900px;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.aside-div{
+    width: 319px;
+    height: 1080px;
+    background-color: #222222;
+}
+.div-logo{
+    margin-top: 42px;
+}
+.logo{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.logo span{
+    font-weight: bold;
+}
+.font-medium-size{
+    font-size:16px;
+    font-family: "Avenir Medium";
+}
+
