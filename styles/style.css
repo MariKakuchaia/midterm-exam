@@ -23,9 +23,10 @@ ul{
     width: 319px;
     height: 1080px;
     background-color: #222222;
+    flex:1;
 }
 .div-logo{
-    margin-top: 42px;
+    margin: 42px 30px 106px;
 }
 .logo{
     font-size: 24px;
@@ -34,8 +35,34 @@ ul{
 .logo span{
     font-weight: bold;
 }
-.font-medium-size{
+.nav-li{
+    transition: 0.3s ease-in all;
+    margin-left:40px ;
+    margin-bottom: 20px;
+    width: 265px;
+}
+.nav-li :hover{
+    background-color: #FF2288;
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 18px;
+}
+.nav-li a{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 30px;
+}
+.nav-li img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.font-size-color{
     font-size:16px;
     font-family: "Avenir Medium";
+    color: #FFFFFF;
+}
+.main-page{
+    flex:3;
 }
 
