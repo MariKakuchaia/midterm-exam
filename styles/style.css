@@ -40,7 +40,6 @@ ul{
     margin: 106px auto 0;
 }
 .nav-li{
-    transition: 0.3s ease-in all;
     margin-bottom: 20px;
     width: 265px;
 }
@@ -93,9 +92,76 @@ ul{
     margin-top: 19px;
     font-family: "Avenir Heavy";
     font-size: 14px;
+    cursor: pointer;
 }
+/*----main page---*/
 .main-page{
     flex:3;
 }
+header{
+    margin: 30px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-div{
+    width: 446px;
+    height: 56px;
+    background-color: #F8F8F8;
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-div input{
+    outline: none;
+    border-style: hidden;
+    background-color: #F8F8F8;
+    color: #111111;
+    opacity: 0.5;
+}
+.upload{
+    padding: 17px 36px;
+    background-color:#FF2288 ;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Avenir Heavy";
+    border-style: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.header-right-div{
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right-div :first-child{
+    color:#FF2288 ;
+}
+.relative{
+    position: relative;
+}
+.header-right-div span{
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #ff2288;
+    border-radius: 50%;
+    top: -1px;
+    right: -1px;
+    opacity: 1;
+}
+.div-person{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border:2px solid #E7E7E7;
+    justify-content: center;
+    align-items: center;
+}
+.div-person:hover{
+    border:2px solid #FF2288;
+}
+
+
+
 
 
