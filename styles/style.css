@@ -10,12 +10,11 @@ ul{
     list-style: none;
 }
 .container-page{
-    width: 1920px;
+    width:1920px;
     /* width: 100%; */
 }
 .color222{
     color: #222222;
-    opacity: 0.3;
 }
 .font-fam-heavy{
     font-family: "Avenir Heavy"
@@ -204,7 +203,7 @@ header{
 }
 .list-div a{
     transition: linear;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 .list-div :hover{
     background-color: #F2F2F2;
@@ -279,6 +278,9 @@ header{
     margin-top: 70px;
     padding: 67px 188px 60px 180px;
 }
+.opacity-03{
+    opacity: 0.3;
+}
 .personal-div{
     flex-direction:column;
     align-items: center;
@@ -300,9 +302,56 @@ header{
     margin-top: 34px;
 }
 .personal-div button{
+    border:none ;
+    background-color: #FAFAFA;
+    width: 134px;
+    border-radius: 12px;
+}
+.follow-div{
     width: 134px;
     height: 44px;
     border:1px solid #d1cdcd ;
-    border-radius: 12px;
     background-color: #FAFAFA;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+.follow-div :hover{
+    background-color:#d1cdcd;
+}
+.footer-page{
+    padding: 69px 155px 117px 0;
+}
+.footer-page h4{
+    margin-bottom: 36px;
+    font-size: 16px;
+    color: #222222;
+}
+.footer-page li{
+    margin-bottom: 20px;
+}
+.footer-page a{
+    font-family: 'Avenir LT Std book';
+    font-size: 16px;
+    color: #222222;
+    opacity: 1;
+}
+.margin-top41{
+    margin-top: 41px;
+}
+footer span{
+    font-size: 16px;
+    font-family: 'Avenir LT Std book';
+    color: #222222;
+    font-weight: bold;
+}
+.font-size16{
+    font-size: 16px;
+}
+.font-avenir-book{
+    font-family: 'Avenir LT Std book';
+}
+footer :nth-child(2) div :nth-child(2){
+    margin:0 20px;
 }
