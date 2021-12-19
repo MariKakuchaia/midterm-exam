@@ -124,6 +124,7 @@ header{
     border-radius: 12px;
     justify-content: space-around;
     align-items: center;
+    margin-right: 20px;
 }
 .search-div input{
     outline: none;
@@ -348,6 +349,9 @@ footer span{
 footer :nth-child(2) div :nth-child(2){
     margin:0 20px;
 }
+.table-section{
+    padding:0 20px;
+}
 .table{
     border-collapse: collapse;
 }
@@ -402,6 +406,9 @@ tbody :nth-child(7) td{
     .header-right-div{
         padding-left:20px;
     }
+    footer :nth-child(2){
+        padding:20px
+    }
 }
 @media (max-width:1024px) {
     .main-img-div{
@@ -429,5 +436,4 @@ tbody :nth-child(7) td{
     .display-none{
         display: none;
     }
-    
 }
