@@ -10,7 +10,7 @@ ul{
     list-style: none;
 }
 .container-page{
-    width:1920px;
+   width:1920px;
     /* width: 100%; */
 }
 .color222{
@@ -354,4 +354,34 @@ footer span{
 }
 footer :nth-child(2) div :nth-child(2){
     margin:0 20px;
+}
+.table{
+    border-collapse: collapse;
+}
+thead{
+    text-align: left;
+}
+th{
+    font-size: 18px;
+    color: #111111;
+    padding: 31px 0;
+    font-family: "Avenir Heavy";
+    flex: 1;
+}
+.info-table{
+    border-top: 1px solid #d1d1d1;
+    padding: 31px 0;
+}
+.info-table td{
+    font-family: "Avenir Heavy";
+    color:#AFAFAF;
+    font-size: 16px;
+    cursor: pointer;
+    flex: 1;
+}
+tbody :nth-child(4) td{
+    color: #222222;
+}
+tbody :nth-child(7) td{
+    color: #FF2288;
 }
