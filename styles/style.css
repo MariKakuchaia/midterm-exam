@@ -10,8 +10,8 @@ ul{
     list-style: none;
 }
 .container-page{
-   width:1920px;
-    /* width: 100%; */
+    max-width:1920px;
+    width: 100%;
 }
 .color222{
     color: #222222;
@@ -65,12 +65,11 @@ ul{
     background-color: #FF2288;
     border-radius: 10px;
     transition-duration: 0.2s;
-    font-size: 18px;
 }
 .nav-li a{
     display: inline-block;
     vertical-align: middle;
-    padding: 15px 105px 15px 20px;
+    padding: 15px 80px 15px 20px;
 }
 .nav-li img{
     display: inline-block;
@@ -196,10 +195,7 @@ header{
     text-transform: capitalize;
 }
 .list-div{
-    width: 80px;
-}
-.witdh{
-    width: 150px;
+    margin: 0 53px 0 10px;
 }
 .list-div a{
     transition: linear;
@@ -261,14 +257,11 @@ header{
 }
 .icon-on-imgdiv{
     position: absolute;
-    top:40px;
-    left:40px;
+    top:30px;
+    left:30px;
     flex-direction: column;
     padding: 3px;
     margin-bottom: 5px;
-}
-.icon-on-imgdiv img{
-    width: 24px;
 }
 .heart-icon{
     top: 80px;
@@ -366,22 +359,75 @@ th{
     color: #111111;
     padding: 31px 0;
     font-family: "Avenir Heavy";
-    flex: 1;
+    width: calc(100%/6);
 }
 .info-table{
     border-top: 1px solid #d1d1d1;
-    padding: 31px 0;
+    cursor: pointer;
 }
 .info-table td{
     font-family: "Avenir Heavy";
+    padding: 31px 0;
     color:#AFAFAF;
     font-size: 16px;
-    cursor: pointer;
-    flex: 1;
+    width: calc(100%/6);
 }
 tbody :nth-child(4) td{
     color: #222222;
 }
 tbody :nth-child(7) td{
     color: #FF2288;
+}
+@media (max-width:1320px) {
+    .colum-reset{
+        flex-direction: column;
+    }
+    .list-div{
+        margin: 20px 10px;
+    }
+    .container{
+        max-width: 800px;
+    }
+    .buttom-filter-div{
+        padding: 14px;
+        margin-right: 20px;
+    }
+    .icon-on-imgdiv{
+        top: 15px;
+        left: 15px;
+    }
+    .heart-icon{
+        margin-top: 25px;
+    }
+    .header-right-div{
+        padding-left:20px;
+    }
+}
+@media (max-width:1024px) {
+    .main-img-div{
+        width: calc(100%/2);
+    }
+    .icon-on-imgdiv{
+        top: 50px;
+        left: 60px;
+    }
+    .list-div{
+        margin-left: 10px;
+    }
+    .heart-icon{
+        margin-top: 30px;
+    }
+    .footer-page{
+        padding: 65px 50px ;
+    }
+    .search-div{
+        width: 250px;
+    }
+    .aside-div{
+        width: 250px;
+    }
+    .display-none{
+        display: none;
+    }
+    
 }
