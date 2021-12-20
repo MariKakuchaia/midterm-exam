@@ -475,27 +475,6 @@ tbody :nth-child(7) td{
         text-align: center;
     }
 }
-/*
-@media (max-width:650px) {
-    thead{
-        display: none;
-    }
-    .info-table-title-resp{
-        display: flex;
-        flex-direction: column;
-        flex:1
-    }
-    .info-table{
-        border: none;
-        flex-direction: column;
-    }
-    .flex-resp{
-        display: flex;
-    }
-    .table-section{
-        padding: 5px;
-    }
-}*/
  @media (max-width:400px) {
     .display-none360{
         display: none;
